@@ -16,11 +16,11 @@ body{
 }
 a {
     color:black;
-    text-decoration:none;
+    text-decoration:wavy;
 }
 a:hover{
-      text-decoration: underline;
-      color: blue;
+      text-decoration:underline;
+      color: rgb(109, 109, 173);
 }
 a:active{
     color: blue;
@@ -38,7 +38,7 @@ a:visited{
     margin-bottom: 20px;
     display:flex;
 }
-@media (max-width:800px){
+@media (max-width:900px){
     .shapka{
         display:block;
         text-align: center;
@@ -98,7 +98,7 @@ a:visited{
     background: #bccbde;
 }
 .yellow{
-    background:#f2d53c;
+    background:#e7d36c;
 }
 .blue{
     background: #c2dde6;
@@ -114,7 +114,8 @@ a:visited{
     margin-bottom: 5px;
 }
 .table{
-    width:100%
+    width:100%;
+    color:rgb(0, 0, 0);
 }
 .table td:nth-child(1), td:nth-child(2), td:nth-child(3){
     text-align: center;
@@ -145,10 +146,10 @@ a:visited{
     width: 100%;
     box-sizing: border-box;
     border: none;
-    background: transparent;
+    background:local;
     border-bottom: 1px solid rgb(161, 148, 148);
     color: black;
-    padding: 15px 0 10px;
+    padding: 19px 0 10px;
     outline: none;
     font-family: inherit;
 }
